@@ -29,9 +29,12 @@ capstone/
 │
 └── README.md
 
-Bronze Layer – raw ingestion
-Silver Layer – cleaned and standardized data
-Gold Layer – aggregated tables and KPI-ready materialized views
+Layer,Purpose
+Bronze,"Raw ingestion, original schema preserved"
+Silver,"Cleaned, standardized, deduplicated"
+Gold,"Aggregated, business-ready views & KPIs"
+
+
 
 Step 1: Data Ingestion (Bronze Layer)
 
