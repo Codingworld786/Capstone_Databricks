@@ -5,7 +5,8 @@
 ---
 ## Project Structure
 
-<img width="594" height="389" alt="image" src="https://github.com/user-attachments/assets/35e82173-9614-45d7-9097-47f76127495b" />
+<img width="684" height="381" alt="image" src="https://github.com/user-attachments/assets/8570bf92-5c55-42d4-8e3a-4c23be493b41" />
+
 
 ## Overview
 
