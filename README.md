@@ -92,8 +92,6 @@ Monthly Transaction Volumne:
 
 Gold views exposed to **Databricks Genie** for natural language querying.
 
-#### Example Queries:
-
 **Q:** *What is the total amount disbursed in loans each month?*  
 <img src="https://github.com/user-attachments/assets/5faed228-3461-445e-b8bd-8ca634d1c592" alt="Loan Disbursement">
 
