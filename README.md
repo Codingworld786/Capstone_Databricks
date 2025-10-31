@@ -1,20 +1,30 @@
-Capstone Project – Financial Data Pipeline & Dashboard
-Overview
+# Capstone Project – Financial Data Pipeline & Dashboard
 
-This project walks through how I built a complete data pipeline from raw data ingestion to final dashboards and natural language querying using Databricks. Everything — from cleaning and transformations to gold-level analytics — was done from scratch.
+![Databricks](https://img.shields.io/badge/Databricks-SQL-blue?logo=databricks) ![SQL](https://img.shields.io/badge/SQL-Transformations-green) ![Dashboard](https://img.shields.io/badge/Dashboard-Interactive-orange) ![Genie](https://img.shields.io/badge/Genie-NLQ-purple)
 
-The main goal was to process financial and customer datasets, generate useful KPIs (like transaction volumes, loan defaults, and risk segments), and visualize them through Databricks SQL dashboards and Genie Q&A.
+---
 
+## Overview
+
+This project demonstrates a **complete end-to-end data pipeline** built from scratch using **Databricks**, transforming raw financial and customer data into **actionable KPIs**, **interactive dashboards**, and **natural language querying** via **Databricks Genie**.
+
+From **raw ingestion (Bronze)** → **cleaned & standardized (Silver)** → **aggregated & KPI-ready (Gold)** — all transformations are modular, reproducible, and optimized for analytics.
+
+---
+
+## Project Structure
+
+```bash
 capstone/
 │
 ├── transformation/
-│   ├── bronze_to_silver.sql
-│   ├── silver_to_gold.sql
+│   ├── bronze_to_silver.sql      # Raw → Cleaned
+│   ├── silver_to_gold.sql        # Aggregations & KPIs
 │   └── ...
 │
 ├── exploration/
-│   ├── kpi_queries.sql
-│   ├── risk_analysis.sql
+│   ├── kpi_queries.sql           # Ad-hoc KPI analysis
+│   ├── risk_analysis.sql         # Risk segmentation logic
 │   └── ...
 │
 └── README.md
