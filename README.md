@@ -12,22 +12,7 @@ From **raw ingestion (Bronze)** → **cleaned & standardized (Silver)** → **ag
 
 ---
 
-## Project Structure
 
-```bash
-capstone/
-│
-├── transformation/
-│   ├── bronze_to_silver.sql      # Raw → Cleaned
-│   ├── silver_to_gold.sql        # Aggregations & KPIs
-│   └── ...
-│
-├── exploration/
-│   ├── kpi_queries.sql           # Ad-hoc KPI analysis
-│   ├── risk_analysis.sql         # Risk segmentation logic
-│   └── ...
-│
-└── README.md
 
 Layer,Purpose
 Bronze,"Raw ingestion, original schema preserved"
